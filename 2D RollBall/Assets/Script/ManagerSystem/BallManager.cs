@@ -10,7 +10,7 @@ public class BallManager : MonoBehaviour
     public GameObject BallPrefab;
     [SerializeField] GameObject SpawnPoint;
     private bool isVictory;
-    [SerializeField] private float OverrideControllerSpeed = 10;
+    [SerializeField] private static float OverrideControllerSpeed = 5;
     [SerializeField] private SceneSwitchManager _sceneSwitchManager;
     private bool isSpawnableScene;
 
