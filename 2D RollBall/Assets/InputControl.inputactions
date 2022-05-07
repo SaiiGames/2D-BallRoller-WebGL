@@ -1,0 +1,54 @@
+{
+    "name": "InputControl",
+    "maps": [
+        {
+            "name": "Input",
+            "id": "d2828410-b8db-459a-a160-4ba354af3095",
+            "actions": [
+                {
+                    "name": "Hold",
+                    "type": "Value",
+                    "id": "7ce59447-51d6-4bea-859d-7bac189385f7",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Touch",
+                    "type": "Value",
+                    "id": "28687fd8-6718-4b17-bd81-30b50cba654e",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f25e66e3-d5de-4ad6-84af-4ee4a427ffe9",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Hold",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a1677f39-2692-40c1-b3d4-c1e89af8e979",
+                    "path": "<Touchscreen>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Touch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
